@@ -9,3 +9,15 @@ C:\Users\aeeva\source\repos\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.AssemblyInfoI
 C:\Users\aeeva\source\repos\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.AssemblyInfo.cs
 C:\Users\aeeva\source\repos\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.dll
 C:\Users\aeeva\source\repos\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.pdb
+E:\Projects\Chat\Chat\bin\Debug\netcoreapp2.2\Chat.deps.json
+E:\Projects\Chat\Chat\bin\Debug\netcoreapp2.2\Chat.runtimeconfig.json
+E:\Projects\Chat\Chat\bin\Debug\netcoreapp2.2\Chat.runtimeconfig.dev.json
+E:\Projects\Chat\Chat\bin\Debug\netcoreapp2.2\Chat.dll
+E:\Projects\Chat\Chat\bin\Debug\netcoreapp2.2\Chat.pdb
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.csprojAssemblyReference.cache
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.csproj.CoreCompileInputs.cache
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.AssemblyInfoInputs.cache
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.AssemblyInfo.cs
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.dll
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.pdb
+E:\Projects\Chat\Chat\obj\Debug\netcoreapp2.2\Chat.genruntimeconfig.cache

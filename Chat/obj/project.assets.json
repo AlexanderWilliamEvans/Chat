@@ -686,25 +686,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aeeva\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\alev\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aeeva\\source\\repos\\Chat\\Chat\\Chat.csproj",
+      "projectUniqueName": "E:\\Projects\\Chat\\Chat\\Chat.csproj",
       "projectName": "Chat",
-      "projectPath": "C:\\Users\\aeeva\\source\\repos\\Chat\\Chat\\Chat.csproj",
-      "packagesPath": "C:\\Users\\aeeva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aeeva\\source\\repos\\Chat\\Chat\\obj\\",
+      "projectPath": "E:\\Projects\\Chat\\Chat\\Chat.csproj",
+      "packagesPath": "C:\\Users\\alev\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\Chat\\Chat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aeeva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -713,6 +713,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\decdgit\\Duget\\ProjectInternal\\KartenaLegacy": {},
+        "\\\\fs-006\\Duget\\ledningskollen": {},
+        "\\\\fs-006\\proj\\Decerno West\\nuget\\internal": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -737,10 +740,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

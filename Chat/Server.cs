@@ -17,10 +17,10 @@ namespace Chat
         List<TcpClient> clients;
         NetworkStream stream;
 
-        public Server()
+        public Server(IPAddress ipAddress,int port)
         {
-            this.ipAddress = IPAddress.Parse("127.0.0.1");
-            this.port = 666;
+            this.ipAddress = ipAddress;
+            this.port = port;
             StartServer();
         }
         /// <summary>
@@ -34,17 +34,17 @@ namespace Chat
             //listenerSocket.Listen(100);
 
             //listenerSocket.BeginAccept(OnClientConnected, null);
-            server = new TcpListener(IPAddress.Parse("127.0.0.1"), 6500);
+            server = new TcpListener(ipAddress, port);
             clients = new List<TcpClient>();
             server.Start();
-            Debug.WriteLine("Connected!");
+            Console.WriteLine("Server is connected!");
 
             while (true)
             {
                 client = server.AcceptTcpClient();
                 AddClient(client);
-                Debug.WriteLine("New client has connect!");
-                Debug.WriteLine("Current number of clients connected: " + clients.Count);
+                Console.WriteLine("New client has connected!");
+                Console.WriteLine("Current number of clients connected: " + clients.Count);
                 stream = client.GetStream();
                 Byte[] bytes = new Byte[1048];
                 int k = stream.Read(bytes, 0, bytes.Length);
@@ -54,10 +54,10 @@ namespace Chat
                 while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                 {
                     data = Encoding.ASCII.GetString(bytes, 0, i);
-                    Debug.WriteLine("Received: {0}", data);
+                    Console.WriteLine("Received: {0}", data);
                     byte[] msg = Encoding.ASCII.GetBytes(data);
                     stream.Write(msg, 0, msg.Length);
-                    Debug.WriteLine("Sent: {0}", data);
+                    Console.WriteLine("Sent: {0}", data);
                 }
 
             }
